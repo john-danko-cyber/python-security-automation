@@ -234,3 +234,7 @@ print(text)
 - After writing, reopening the file in `"r"` mode and printing `.read()` is a way to confirm the update.
 - Wrapping these steps in a function with parameters (`import_file` and `remove_list`) makes the same algorithm reusable for a different file or a different set of addresses.
 - This is a practical way to maintain an IP allow list: import the current list, remove access that is no longer approved, and save the updated file.
+
+## Portfolio write-up
+
+The Coursera portfolio activity write-up is in [portfolio-writeup.md](portfolio-writeup.md) and [Algorithm-for-file-updates-in-Python.docx](Algorithm-for-file-updates-in-Python.docx). A PDF version is also included as [Algorithm-for-file-updates-in-Python.pdf](Algorithm-for-file-updates-in-Python.pdf).
