@@ -13,6 +13,7 @@ These are hands-on labs from the Google Cybersecurity Certificate (Automate Cybe
 | [Strings](05-strings/) | Standardizing a short employee ID, extracting characters from a device ID, and parsing a URL | `str()`, `len()`, concatenation, indexing, slicing, `.index()` |
 | [Lists](06-lists/) | Maintaining approved usernames and assigned devices, then building a login algorithm that checks both | `append()`/`remove()`, parallel lists, indexing, conditionals |
 | [Regular Expressions](07-regular-expressions/) | Extracting device IDs that need an OS update, then extracting and flagging IP addresses in a login log | Regular expressions with the `re` module, `re.findall()`, log and IP analysis |
+| [File Import and Parsing](08-file-import-and-parsing/) | Reading a login log, splitting it into lines, appending a missing entry, and writing an IP allow list to a file | `with`/`open()`, `"r"`/`"w"`/`"a"` modes, `.read()`, `.write()`, `.split()` |
 
 ## Skills Demonstrated
 
@@ -23,6 +24,7 @@ These are hands-on labs from the Google Cybersecurity Certificate (Automate Cybe
 - Strings
 - Lists
 - Regular expressions with the `re` module
+- File handling with `with`/`open()`, `"r"`/`"w"`/`"a"` modes, `.read()`, `.write()`, and `.split()`
 - Log and IP analysis
 
 ## Tools Used
