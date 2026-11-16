@@ -14,6 +14,7 @@ These are hands-on labs from the Google Cybersecurity Certificate (Automate Cybe
 | [Lists](06-lists/) | Maintaining approved usernames and assigned devices, then building a login algorithm that checks both | `append()`/`remove()`, parallel lists, indexing, conditionals |
 | [Regular Expressions](07-regular-expressions/) | Extracting device IDs that need an OS update, then extracting and flagging IP addresses in a login log | Regular expressions with the `re` module, `re.findall()`, log and IP analysis |
 | [File Import and Parsing](08-file-import-and-parsing/) | Reading a login log, splitting it into lines, appending a missing entry, and writing an IP allow list to a file | `with`/`open()`, `"r"`/`"w"`/`"a"` modes, `.read()`, `.write()`, `.split()` |
+| [Update a File Through a Python Algorithm](09-update-file-algorithm/) | Reading an IP allow list from a file, removing addresses that should no longer have access, and writing the updated list back | `with`/`open()`, `.read()`/`.write()`, `.split()`/`.join()`, `for` loops, conditionals, `.remove()`, functions with parameters |
 
 ## Skills Demonstrated
 
@@ -24,7 +25,7 @@ These are hands-on labs from the Google Cybersecurity Certificate (Automate Cybe
 - Strings
 - Lists
 - Regular expressions with the `re` module
-- File handling with `with`/`open()`, `"r"`/`"w"`/`"a"` modes, `.read()`, `.write()`, and `.split()`
+- File handling with `with`/`open()`, `"r"`/`"w"`/`"a"` modes, `.read()`, `.write()`, `.split()`, and `.join()`
 - Log and IP analysis
 
 ## Tools Used
